@@ -9,6 +9,5 @@ if(n % 3 == 0){
 } else{
   printf("The number is not divisible by 3");
 }
-
-  return 0;
+return 0;
 }
