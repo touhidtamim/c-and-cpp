@@ -1,6 +1,11 @@
 #include <stdio.h>
 int main() {
-    int a = 5, b = 10, temp;
+    int a, b, temp;
+    printf("Enter first number: ");
+    scanf("%d", &a);
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
     temp = a;
     a = b;
     b = temp;
